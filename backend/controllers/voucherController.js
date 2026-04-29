@@ -1,4 +1,5 @@
-const Voucher = require("../models/Voucher");
+
+const Voucher = require("../models/voucher");
 
 const createVoucher = async (req, res) => {
   const voucher = await Voucher.create(req.body);
